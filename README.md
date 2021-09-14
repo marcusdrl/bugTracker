@@ -1,6 +1,6 @@
 # bugTracker
 
-Este projeto foi criado com o intuito de demonstrar um pouco do que eu aprendi com QT e C++, exclusivamente para utilizar como portfólio. Front end não é o meu forte então não se assustem se acharem a UI um pouco "diferente".
+Este projeto foi criado com o intuito de demonstrar um pouco do que eu aprendi com QT e C++, exclusivamente como portfólio. Front end não é o meu forte então não se assustem se acharem a UI um pouco "diferente".
 
 <h1>COMO USAR</h1>
 Primeiramente para se conectar a aplicação você terá de fazer o download dela (aqui). Após realizar o download e a instalação, você irá abrir a aplicação e 
