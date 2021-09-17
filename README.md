@@ -6,7 +6,7 @@ Este projeto foi criado com o intuito de demonstrar um pouco do que eu aprendi c
 Primeiramente para se conectar a aplicação você terá de fazer o download dela (<a href="https://github.com/marcusdrl/bugTracker/releases/download/1.1/MVbugTracker.exe">Installer</a> ou <a href="https://github.com/marcusdrl/bugTracker/releases/download/1.1/MVbugTracker.rar">.RAR</a>). Após realizar o download e a instalação, você irá abrir a aplicação e 
 irá se registrar com uma conta, preenchendo corretamente os campos porque sua conta terá que ser ativada, então cuidado nesta parte.
 <br>
-PS: O windows pode barra a execução do installer devido a ausência do certicado  de publisher, se optarem pelo installer, por favor sigam este tutorial:https://social.technet.microsoft.com/wiki/contents/articles/26352.o-windows-protegeu-o-computador-o-windows-smartscreen-impediu-a-inicializacao-de-um-aplicativo-nao-reconhecido-se-voce-executar-esse-aplicativo-o-pc-podera-ficar-vulneravel.aspx
+PS: O windows pode barra a execução do installer devido a ausência do certicado  de publisher, se optarem pelo installer, por favor sigam este <a href="https://social.technet.microsoft.com/wiki/contents/articles/26352.o-windows-protegeu-o-computador-o-windows-smartscreen-impediu-a-inicializacao-de-um-aplicativo-nao-reconhecido-se-voce-executar-esse-aplicativo-o-pc-podera-ficar-vulneravel.aspx">tutorial</a>.
 <br>
 
 ![cadastrar](https://user-images.githubusercontent.com/71731401/133265459-5c05a971-c51e-4c8b-ba27-0c72b679c4f9.png)
