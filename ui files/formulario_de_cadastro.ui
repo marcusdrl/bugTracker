@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Formulario_de_Cadastro</class>
+ <widget class="QWidget" name="Formulario_de_Cadastro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Formulario_de_Cadastro{
+	background-color: rgb(0, 170, 255);
+}
+QWidget#page{
+	background-color: rgb(0, 170, 255);
+}
+
+QWidget#page_2{
+	background-color: rgb(0, 170, 255);
+}
+
+QFrame#frame{
+	background-color: white;
+	border-radius: 10px;
+}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_12">
+   <item row="2" column="0" rowspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>320</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>500</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Confirmar E-mail:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Senha:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="line_senha2">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0" colspan="2">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="button_enviacadastro">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(185, 190, 217);
+	color: black;
+	font-weight: 700;
+	border-radius: 6px;
+}
+QPushButton:hover{
+	background-color:  rgb(0, 170, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>ENVIAR</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Confirmar Senha:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>25</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="line_nomecompleto">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Nome Completo:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0">
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>15</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="17" column="0" rowspan="2" colspan="2">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="button_voltar">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(185, 190, 217);
+	color: black;
+	font-weight: 700;
+	border-radius: 6px;
+}
+QPushButton:hover{
+	background-color:  rgb(0, 170, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Voltar à tela de Login</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>E-mail:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Nome de Usuário:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="0">
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>15</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="11" column="1">
+       <widget class="QComboBox" name="comboFuncao">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Desenvolvedor Jr.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Desenvolvedor Sr.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Admin</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="line_email2">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Função:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="line_email1">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="line_senha1">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="line_username">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(211, 225, 255);
+border-radius: 3px;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1" rowspan="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Caso escolha a opção &quot;Admin&quot; você poderá registrar sua empresa e
+ então aceitar novos membros para sua equipe.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font-size: 30px;</string>
+     </property>
+     <property name="text">
+      <string>Formulário de Cadastro</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Minimum</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>line_nomecompleto</tabstop>
+  <tabstop>line_username</tabstop>
+  <tabstop>line_email1</tabstop>
+  <tabstop>line_email2</tabstop>
+  <tabstop>line_senha1</tabstop>
+  <tabstop>line_senha2</tabstop>
+  <tabstop>comboFuncao</tabstop>
+  <tabstop>button_enviacadastro</tabstop>
+  <tabstop>button_voltar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
