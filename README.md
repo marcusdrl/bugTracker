@@ -3,7 +3,7 @@
 Este projeto foi criado com o intuito de demonstrar um pouco do que eu aprendi com QT e C++, exclusivamente como portfólio. Front end não é o meu forte então não se assustem se acharem a UI um pouco "diferente".
 
 <h1>COMO USAR</h1>
-Primeiramente para se conectar a aplicação você terá de fazer o download dela <a href="https://github.com/marcusdrl/bugTracker/releases/download/1.0/MVbugTracker.exe">(AQUI)</a>. Após realizar o download e a instalação, você irá abrir a aplicação e 
+Primeiramente para se conectar a aplicação você terá de fazer o download dela <a href="https://github.com/marcusdrl/bugTracker/releases/download/1.1/MVbugTracker.exe">(AQUI)</a>. Após realizar o download e a instalação, você irá abrir a aplicação e 
 irá se registrar com uma conta, preenchendo corretamente os campos porque sua conta terá que ser ativada, então cuidado nesta parte.
 
 ![cadastrar](https://user-images.githubusercontent.com/71731401/133265459-5c05a971-c51e-4c8b-ba27-0c72b679c4f9.png)
