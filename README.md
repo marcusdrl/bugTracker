@@ -63,7 +63,7 @@ o usuário que está acessando os últimos tickets (se for ADMIN será os ultimo
   ![download](https://user-images.githubusercontent.com/71731401/133306694-93cb72ff-a1a5-4939-83ca-ff2419aabaaf.png)
 
 <br>
-<strong>Acho que isso é tudo que eu tenho a acrescentar, é um programa simples, como mencionei o menu é auto-explicativo vocês não devem ter dificuldade em entender, o resumo acima foi somente para dar uma ideia do que o app possui antes de você realmente utilizá-lo, espero que vocês gostem.</strong>
+<strong>Acho que isso é tudo que eu tenho a acrescentar, como mencionei o menu é auto-explicativo vocês não devem ter dificuldade em entender, o resumo acima foi somente para dar uma ideia do que o app possui antes de você realmente utilizá-lo, espero que vocês gostem.</strong>
 <br>
 <br>
 <strong>PS: Caso tenham encontrado algum bug ou queiram entrar em contato -> marcusviniciusdrl@gmail.com.</strong>
