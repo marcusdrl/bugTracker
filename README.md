@@ -66,6 +66,6 @@ o usuário que está acessando os últimos tickets (se for ADMIN será os ultimo
 <strong>Acho que isso é tudo que eu tenho a acrescentar, como mencionei o menu é auto-explicativo vocês não devem ter dificuldade em entender, o resumo acima foi somente para dar uma ideia do que o app possui antes de você realmente utilizá-lo, espero que vocês gostem.</strong>
 <br>
 <br>
-<strong>PS: Caso tenham encontrado algum bug ou queiram entrar em contato -> marcusviniciusdrl@gmail.com.</strong>
+
   
   
